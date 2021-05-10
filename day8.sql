@@ -28,7 +28,7 @@ For example, given the above Scores table, your query should generate the follow
 Important Note: For MySQL solutions, to escape reserved words used as column names, you can use an apostrophe before and after the keyword. For example `Rank`.
 **/
 
-## Solution:
+Solution:
 
 select Score, dense_rank() over(order by score desc) as "Rank"
 from Scores;
