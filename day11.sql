@@ -58,7 +58,6 @@ Day 2020-05-04, 15 apples and 16 oranges were sold (Difference 15 - 16 = -1).
 
 Solution:
 
-# Write your MySQL query statement below
 with new_sale_diff as (
 select sale_date,
     (case when fruit= 'apples' then sold_num else 0 end)-
