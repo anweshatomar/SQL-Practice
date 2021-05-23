@@ -22,6 +22,7 @@ For the sample data above, your query should return the follow result:
 |----|----|----|----------|
 | 13 | 15 | 30 | No       |
 | 10 | 20 | 15 | Yes      |
+**/
 
 Solution:
 
@@ -33,4 +34,4 @@ else 'No'
 end as triangle
 from triangle
 ;
-**/
+
