@@ -1,4 +1,4 @@
-⛓ Link:
+⛓ Link:https://leetcode.com/problems/reformat-department-table/
 
 /**
 💻 List of Companies: Amazon, Google
@@ -68,8 +68,11 @@ ID
 From Department
 Group By ID 
 
+/**
 
  📝 Explaination:
  
  I create 12 new columns for each month using the case statement, 
  I used sum() to add together the 'Revenue' values for each month based on the ID.
+
+**/
