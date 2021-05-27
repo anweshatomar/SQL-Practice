@@ -82,6 +82,7 @@ order by a.visit_date
  📝 Explaination:
  
  I created a temporary table with a new column 'r', which stores the new id after subtracting row number.
+ If there are consecutive id's the value of 'r' will be the same, so in he next step we group by 'r'.
  Then I created a second table where I group the data based on column 'r' and selected values that have count greater than 3.
  Lastly, I used inner join to get the final output
  
