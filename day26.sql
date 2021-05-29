@@ -74,6 +74,8 @@ There are 4 unique accepted requests, and there are 5 requests in total. So the 
 Follow up:
 Could you write a query to return the acceptance rate for every month?
 Could you write a query to return the cumulative acceptance rate for every day?
+**/
+
 
 Solution:
 
@@ -87,4 +89,4 @@ else 0
 end as accept_rate
 from cte2 t2, cte t1;
 
-**/
+
